@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    font-family: 'Fira Sans', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#fullpage {
+    width: 1600px;
+    height: 5181px;
+    background-color: beige;
+}
+
+.NavSection {
+    width: 1600px;
+    height: 100px;
+    /* background-color: rgb(227, 215, 250); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.NavBD {
+    font-size: 32px;
+    margin: 24px 160px;
+    font-family: 'Fira Sans', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 600;
+    width: 116px;
+    color: #006A50;
+    height: 52px;
+    border-color: rgb(2, 34, 23);
+    border-radius: 8px;
+    margin: 24px 160px;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+/* BannerSection  */
+.BannerContainer {
+    width: 1180px;
+    height: 400px;
+    margin: 10px 160px 0px 160px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 100px;
+    display: flex;
+    font-family: 'Fira Sans', 'Arial Narrow', Arial, sans-serif;
+    justify-content: space-between;
+}
+
+.BannerWrite {
+    width: 622px;
+    height: 325px;
+}
+
+.BHead1 {
+    width: 622px;
+    height: 28px;
+    font-size: 24px;
+    color: #0E0E0E;
+    opacity: 50%;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+
+.BHead2 {
+    width: 622px;
+    height: 201px;
+    font-size: 56px;
+    color: #0E0E0E;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+
+.BannerButton {
+    width: 270px;
+    height: 56px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #006A50;
+    border-color: none;
+    margin-top: 10px;
+}
+
+.BannerButton:hover {
+    transform: scale(1.1);
+}
