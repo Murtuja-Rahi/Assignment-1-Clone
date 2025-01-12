@@ -13,7 +13,7 @@
     width: 1600px;
     height: 5181px;
     background-color: beige;
-
+    /* margin: 0px 160px; */
 }
 
 .NavSection {
@@ -170,25 +170,265 @@
 .Visionp2 {
     width: 1280px;
     height: 48px;
-    margin: 0px 0px 48px 160px;
+    margin: 0px 0px 0px 160px;
     color: #0E0E0E;
-    opacity: 70%;
+    opacity: 90%;
     font-size: 16px;
 }
 
 .visioncont2 {
     width: 1280px;
-    height: 765px;
-    margin-top: 80px;
+    height: 325px;
+    margin: 32px 160px;
+    display: flex;
+    gap: 24px;
     background-color: #FFFFFF;
 }
+
+.visonsec2 {
+    width: 346.67px;
+    height: 261px;
+    border-radius: 16px;
+    padding: 32px;
+
+    /* background-color: #FFFFFF; */
+}
+
+.lblue {
+    background-color: #9fc0f8;
+
+}
+
+.dblue {
+    background-color: #5490F5;
+}
+
+.lgreen {
+    background-color: #cdfde8;
+}
+
+.dgreen {
+    background-color: #09A15C;
+}
+
+.lorange {
+    background-color: #f8e8c4;
+}
+
+.dorange {
+    background-color: #FFC239;
+}
+
 
 .visionbut {
     font-size: 18px;
     font-weight: 600;
-    width: 116px;
-    color: #006A50;
-    height: 52px;
-    border-color: rgb(2, 34, 23);
+    width: 122px;
+    color: #fcfcfc;
+    height: 41px;
+    border-color: none;
     border-radius: 8px;
+}
+
+.visionbut:hover {
+    transform: scale(1.1);
+}
+
+.quot {
+    width: 1232px;
+    height: 208px;
+    margin: 0px 160px;
+    padding: 24px 24px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.quottext {
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-top: 24px;
+}
+
+.backgoundimg {
+    background-image: url(/assets/quote-bg.png);
+    position: relative;
+    /* width: 54.86px; */
+    /* height: 54.86px; */
+    background-repeat: no-repeat;
+
+}
+
+.younus {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.younus2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* Opiniopn Section */
+
+.openconhead {
+    width: 1280px;
+    height: 48px;
+    margin-top: 80px;
+    margin-bottom: 24px;
+}
+
+.openh1 {
+    font-size: 40px;
+    columns: #0E0E0E;
+}
+
+.quescontainer {
+    width: 1216px;
+    height: 345px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    border-color: #09A15C;
+    padding: 32px;
+}
+
+.tablestyle {
+    border-collapse: collapse;
+
+}
+
+.tbackground {
+    background-color: #C6E4D6;
+}
+
+.tablehead {
+    border: 1px solid black;
+    width: 1168px;
+    height: 72px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px;
+    /* display: block; */
+    /* justify-content: space-between; */
+}
+
+.tablerowl {
+    width: 969px;
+    height: 44px;
+    border: 1px solid black;
+    /* margin: 24px; */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 24px;
+}
+
+.tablerowr {
+    width: 152px;
+    height: 44px;
+    padding: 24px;
+    border: 1px solid black;
+}
+
+.tbutton {
+    width: 152px;
+    height: 44px;
+    border-color: none;
+    /* padding: 24px; */
+
+}
+
+.tbutton:hover {
+    transform: scale(1.1);
+}
+
+.dropdownfont {
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.recentpara {
+    width: 1280px;
+    height: 48px;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.newssectioncontainer {
+    width: 1280px;
+    height: 1254px;
+    /* background-color: #C6E4D6; */
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.newscontainer {
+    width: 1184px;
+    height: 306px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.newsimg {
+    width: 408px;
+    height: 306px;
+    border-radius: 24px;
+}
+
+.newsform {
+    width: 744px;
+    height: 306px;
+    /* background-color: #cde4d9; */
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.newsh1 {
+    width: 744px;
+    height: 38px;
+    font-size: 32px;
+}
+
+.newslogo {
+    width: 137px;
+    height: 40px;
+}
+
+.newsbutton {
+    width: 139px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.newsbutton:hover {
+    transform: scale(1.1);
+}
+
+.donatesection {
+    width: 1071px;
+    height: 312px;
+    border-radius: 8px;
+    background-color: #006A50;
+    padding-top: 32px;
+    align-self: center;
+}
+
+.donatebutton {
+    width: 240px;
+    height: 128px;
+    border-radius: 16px;
+    font-size: 40px;
+    font-weight: 900;
+    display: flexbox;
+    gap: 24px;
 }
